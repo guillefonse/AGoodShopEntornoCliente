@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AGoodShop · Carrito</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="app1.js" defer></script>
+</head>
+<body>
+  <header><h1>AGoodShop</h1></header>
+
+  <p id="estado" role="status">Cargando productos…</p>
+
+  <main>
+    <section aria-label="Productos disponibles">
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody id="productos"></tbody>
+      </table>
+    </section>
+
+    <div class="contenedor-imagen">
+      <img src="image1.jpeg" alt="iFhone 13" class="imagen-lateral">
+    </div>
+
+    <aside>
+      <h2>Carrito</h2>
+      <ul id="resumen"></ul>
+      <p class="total">TOTAL <strong id="total">0.00 €</strong></p>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 AGoodShop. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
